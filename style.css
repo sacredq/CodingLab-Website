@@ -1,0 +1,113 @@
+body{
+    margin:0; padding: 0;
+    overflow-x: hidden; color: white; overflow-y: hidden;
+}
+.top_bar{
+    position: absolute;
+    top: 0;
+    width: 100%; height: 10%;
+    background-color: rgb(36, 36, 36);
+}
+
+.site_name{
+    display: flex; align-items: center; margin-left: 200px; margin-top: 5px; cursor: pointer;
+}
+
+.side_bar{
+    display: flex; gap: 35px; font-weight: bold;
+    justify-content: flex-end; font-size: 24px;
+    margin-top: -80px; margin-right: 90px;
+}
+
+#home:hover{
+    color: black; cursor: pointer;
+    width: 100px; height: 45px; background-color: white;
+    border-radius: 5px;
+    display: flex; 
+    align-items: center; justify-content: center;
+}
+
+#abt:hover{
+    color: black; cursor: pointer;
+    width: 100px; height: 45px; background-color: white;
+    border-radius: 5px;
+    display: flex; 
+    align-items: center; justify-content: center;
+}
+
+
+#serv:hover{
+    color: black; cursor: pointer;
+    width: 100px; height: 45px; background-color: white;
+    border-radius: 5px;
+    display: flex; 
+    align-items: center; justify-content: center;
+}
+
+
+#cont:hover{
+    color: black; cursor: pointer;
+    width: 120px; height: 45px; background-color: white;
+    border-radius: 5px;
+    display: flex; 
+    align-items: center; justify-content: center;
+}
+
+
+#feed:hover{
+    width: 130px; height: 45px; background-color: white;
+    border-radius: 5px;
+    display: flex; 
+    align-items: center; justify-content: center;
+    color: black; cursor: pointer;
+} 
+
+
+.image{
+    background-image: url(images/website123.jpg);
+    background-repeat: no-repeat; width: 100%; height: 100vh;
+    background-size: cover; background-attachment: fixed;
+}
+
+.Center{
+    position: absolute; top: 0; left: 0; width: 100%; height: 100vh;
+    display: flex;
+    flex-direction: column; justify-content: center; align-items: center;
+    font-size: 32px;  
+    text-align: center; margin-top: 5%;
+}
+
+.title{
+    font-size: 38px; font-weight: bold; margin: 0 auto; text-align: center;
+}
+
+.title::selection{
+    background-color: rgb(173, 171, 171); color: black;
+}
+
+.title:first-of-type{
+    width: 25ch; font-size: 50px;
+}
+
+.title:last-of-type{
+    width: 15ch;
+}
+
+.buttons{
+    margin-top: 50px;
+    display: flex; justify-content: center; align-items: center; gap: 40px;
+}
+
+.empty{
+    width: 170px; height: 50px; border-radius: 5px; 
+    cursor: pointer;
+    background: none; color: white; font-size: 26px;  
+    border: 2px white solid;
+}
+
+.white{
+    width: 170px; height: 50px; border-radius: 5px; 
+    cursor: pointer;
+    background-color: white; font-size: 26px; 
+    border: 2px white solid;
+}
